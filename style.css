@@ -3,20 +3,28 @@ body {
   color: black;
   font-weight: lighter;
 }
+
 h1, h2 {
   font-family: 'Roboto Slab', serif;
 }
+
 h1 {
   color: black;
   font-size: 32px;
   font-weight: 900;
 }
+
 h2 {
   color: black;
   font-size: 20px;
   font-weight: lighter;
   font-weight: 500;
 }
+
+p {
+  text-align: left;
+}
+
 a {
   font-family: 'Roboto', sans-serif;
   text-decoration: none;
@@ -74,15 +82,18 @@ ul{
   font-size: 16px;
   background-color: #d8ebb5;
 }
+
 .card ul{
   list-style: none;
   margin-block-start: 0;
   padding-inline-start: 0px;
   display: inline-flex;
 }
+
 .card li {
   margin: 10px;
 }
+
 @media (max-width: 960px) {
   /* For a screen < 960px, this CSS will be read */
   .container {
